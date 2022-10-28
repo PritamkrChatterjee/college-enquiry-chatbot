@@ -30,33 +30,58 @@
       "tag": "thanks",
       "patterns": [
         "Thanks",
-        "Okay"
+        "Okay" ,
+        "Alright"
       ],
-      "responses": ["Happy to help!"]
+      "responses": ["Happy to help!","Great"]
     },
     {
       "tag": "holidays",
       "patterns": [
-        "When are holidays ? "
+        "When are holidays ? " ,
+        "How many days can we get after seach sem ?" ,
+        "Can we get study leave ?"
+        "what is the biggest hlidays we can get ??",
+        "Are there any department wise spical holiday ?"
       ],
       "responses": [
-        "We have 100 holidays throughout the year",
-        "100 Holidays thorughout the year !!!"
+        "100 Holidays thorughout the year !!!",
+        "APProx 1 week will take start next sem",
+        "yes every student can get study leave" ,
+        "Durgapuja ,New year and Diwali clebration are the biggest holidays here",
+        "depart holidays depend on dept teachers it not spcifies."
       ]
     },
     {
       "tag": "faculty",
       "patterns": [
-        "Do you know the teachers ?"
+        "Do you know the teachers ?" ,
+        "who is the the principal and what about the placement officer??" ,
+        "Details of each department" ,
+        "who are the HOD of CA department?" ,
+        "tell me about CA department" 
       ],
       "responses": [
         "Our Prinicipal is Dr. Maitreyi Ray Kanjilal \n Our Placement Cell has Biswarup Bhattacharjee , Abhijit Nandy , Debanjan Mitra. "
+        "Plsea go through college official website ." ,
+        "Dr. Rupa Mitra is the Hod of CA dept .",
+        "It great and joyous department and teachers are very supportive and helpful."
       ]
     },
     {
       "tag": "courses",
-      "patterns": ["Which Courses are offered here"],
-      "responses": ["Course related queries"]
+      "patterns": ["Which Courses are offered ?" ,
+                   "which Course are best here ?" ,
+                   "what about the fees Stucture ?" ,
+                   "Are there any medical course ?" ,
+                   "how many time will take to complete those course ?"
+    ],
+      "responses": ["There are approximately 25 courses.",
+                    "we say every course are best as their field just go on your interst.",
+                    "for any fees query go thrugh offical website .",
+                    "there are mainly engineering course.",
+                    "any graduation course it takes maximum 4 year and for master degree it would be 2 years,"
+    ]
     },
     {
       "tag": "funny",
@@ -76,6 +101,9 @@
         "what is my result"
       ],
       "responses": ["tell me your student id , example : \n434121010021"]
+
     }
+
+    
   ]
 }
